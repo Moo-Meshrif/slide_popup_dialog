@@ -4,13 +4,13 @@ import './pill_gesture.dart';
 
 class SlideDialog extends StatefulWidget {
   final Widget child;
-  final Color backgroundColor;
-  final Color pillColor;
+  final Color? backgroundColor;
+  final Color? pillColor;
 
   SlideDialog({
-    @required this.child,
-    @required this.pillColor,
-    @required this.backgroundColor,
+    required this.child,
+    required this.pillColor,
+    required this.backgroundColor,
   });
 
   @override
